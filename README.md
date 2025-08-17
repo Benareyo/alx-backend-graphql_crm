@@ -57,7 +57,7 @@ With this project, we:
 
 ---
 
-**Add a new customer:**
+Add a new customer:
 
 ```graphql
 mutation {
