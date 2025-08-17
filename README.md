@@ -55,7 +55,6 @@ With this project, we:
   }
 }
 
----
 
 Add a new customer:
 
