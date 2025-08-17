@@ -55,9 +55,10 @@ With this project, we:
   }
 }
 
----
+
 Add a new customer
 
+```graphql
 mutation {
   createCustomer(name: "John Doe", email: "john@example.com") {
     customer {
