@@ -13,7 +13,7 @@ class CustomerFilter(django_filters.FilterSet):
 
     class Meta:
         model = Customer
-        fields = ["name", "email", "created_at", "phone"]
+        fields = ["name", "email", "phone"]
 
 class ProductFilter(django_filters.FilterSet):
     name = django_filters.CharFilter(field_name="name", lookup_expr="icontains")
@@ -37,5 +37,5 @@ class OrderFilter(django_filters.FilterSet):
 
     class Meta:
         model = Order
-        fields = ["total_amount", "order_date", "customer", "product"]
+        fields = ["total_amount", "order_date", "customer"]  
 
